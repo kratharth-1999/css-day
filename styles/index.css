@@ -1,0 +1,35 @@
+@import url(./base.css);
+
+.home .main__heading {
+    font-size: 85px;
+    font-weight: bold;
+}
+
+.home .main__subheading {
+    font-size: 30px;
+}
+
+.button__icon {
+    vertical-align: middle;
+}
+
+.home .menu path,
+.home .close path {
+    fill: var(--color-text-on-primary);
+}
+
+@media (max-width: 1200px) {
+    .home .main__heading {
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 650px) {
+    .home .main__heading {
+        font-size: 50px;
+    }
+
+    .home .main__subheading {
+        font-size: 30px;
+    }
+}
