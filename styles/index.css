@@ -18,6 +18,12 @@
     fill: var(--color-text-on-primary);
 }
 
+@media (min-width: 2000px) {
+    .home .main__heading {
+        font-size: 150px;
+    }
+}
+
 @media (max-width: 1200px) {
     .home .main__heading {
         font-size: 70px;
